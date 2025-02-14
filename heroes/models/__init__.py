@@ -1,0 +1,2 @@
+from .heroes import Heroes
+
