@@ -1,0 +1,1 @@
+from .heroes_serializer import HeroesSerializer
