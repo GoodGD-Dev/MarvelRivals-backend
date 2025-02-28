@@ -1,4 +1,4 @@
-version: '3.13'
+version: "3.13"
 
 services:
   web:
@@ -22,7 +22,7 @@ services:
     environment:
       - POSTGRES_USER=dev
       - POSTGRES_PASSWORD=dev
-      - POSTGRES_DB=bookstore_db
+      - POSTGRES_DB=heroes_db
     networks:
       - backend
 networks:
