@@ -16,7 +16,12 @@ SECRET_KEY = "django-insecure-ffiyx*5i)31g+d72euz@aplz7b1ea65i&_qyi!#n0m)-4=)*%1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["marvelrivals-backend-production.up.railway.app"]
+ALLOWED_HOSTS = [
+    'localhost', 
+    '127.0.0.1', 
+    '[::1]', 
+    'marvelrivals-backend-production.up.railway.app'
+]
 
 
 # Application definition
