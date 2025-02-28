@@ -194,4 +194,7 @@ CORS_ALLOWED_METHODS = [
     'PUT',
 ]
 
-APPEND_SLASH = True
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://marvelrivals-backend-production.up.railway.app",
+]
